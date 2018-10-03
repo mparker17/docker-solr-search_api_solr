@@ -1,7 +1,7 @@
-FROM solr:6
+FROM solr:7
 MAINTAINER M Parker "mparker17@536298.no-reply.drupal.org"
 
-ENV SOLR_VERSION 6.x
+ENV SOLR_VERSION 7.x
 ENV SOLR_CORE_NAME collection1
 
 # Create a core.
